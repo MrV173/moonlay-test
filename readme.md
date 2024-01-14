@@ -1,6 +1,8 @@
-> This App is using PostgreSQL Database to store and manage to do list / sublist (Create, Read, Update, Delete)
-
+>##  This App is using PostgreSQL Database to store and manage to do list / sublist (Create, Read, Update, Delete)
+---
 # Let's Start
+
+--
 
 - Run this code to start the app
 
@@ -9,17 +11,20 @@ go run main.go
 ```
 
 - Run this code to test the to do list unit test
+
 ```bash
 go test -v ./tests/to_do_list_unit_test.go 
 ```
 
 - Run this code to test the sub to do list unit test
+
 ```bash
 go test -v ./tests/sub_to_do_list_unit_test.go
 ```
 
 - if you want to using MySQL , write this code
-    > File: `pkg/database/database.go
+
+    > 	File: `pkg/database/database.go
 ```go
     package database
 
