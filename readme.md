@@ -25,8 +25,10 @@ go test -v ./tests/sub_to_do_list_unit_test.go
 - if you want to using MySQL , write this code
 
     > 	File: `pkg/database/database.go
+
 ```go
-    package database
+
+package database
 
 import (
 	"fmt"
@@ -48,4 +50,5 @@ func DatabaseInit() {
 
 	fmt.Println("Connected to Database")
 }
+
 ```
