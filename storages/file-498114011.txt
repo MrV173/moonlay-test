@@ -1,0 +1,11 @@
+dependencies python flask api: 
+
+1. instalasi virtualenv "pip3 install virtualenv"
+2. pembuatan virtualenv "virtualenv env"
+3. instalasi flask-sqlachemy "pip3 install flask-sqlalchemy"
+4. instlasi flask-migrate "pip3 install flask-migrate"
+5. instalasi pymysql "pip3 install pymysql"
+6. inslatasi bycrpt "pip3 install werkzeug"
+7. instalasi flask "pip3 install Flask"
+8. instalasi dotenv "pip3 install python-dotenv"
+9. instalasi jwt "pip3 install Flask-JWT-Extended"
